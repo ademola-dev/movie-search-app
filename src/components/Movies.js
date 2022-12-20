@@ -11,7 +11,7 @@ function Movies() {
       <div>
         <div>
           <Get
-            url="http://www.omdbapi.com"
+            url="https://www.omdbapi.com"
             params={{ apikey: "960b03a5", t: "Harry+Potter" }}
           >
             {(error, response, isLoading, makeRequest, axios) => {
